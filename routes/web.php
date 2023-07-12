@@ -1,6 +1,11 @@
 <?php
 
+use App\Http\Controllers\CourseController;
+use App\Http\Controllers\MaterialController;
+use App\Models\Course;
+use App\Models\Material;
 use Illuminate\Support\Facades\Route;
+use PHPUnit\Framework\Constraint\Count;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,5 +19,14 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('welcome', [
+        'courses'   => Course::count(),
+        'materials' => Material::count()
+    ]);
 });
+
+// Route Course
+Route::resource('/courses', CourseController::class);
+
+// Route Material
+Route::resource('/materials', MaterialController::class);
