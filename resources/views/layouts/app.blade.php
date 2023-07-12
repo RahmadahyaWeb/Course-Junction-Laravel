@@ -63,6 +63,10 @@
         .html-duration-picker-input-controls-wrapper .controls {
             display: none !important;
         }
+
+        .modal.fade {
+            z-index: 10000 !important;
+        }
     </style>
 </head>
 

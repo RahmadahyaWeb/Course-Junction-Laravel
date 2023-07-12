@@ -29,8 +29,13 @@
                                     <td>{{ $material->duration }}</td>
                                     <td>{{ $material->course->title }}</td>
                                     <td>
-                                        <a type="button" href="" class="btn btn-sm btn-dark fw-bold"
-                                            data-bs-toggle="modal" data-bs-target="#modal{{ $material->id }}">
+                                        <a type="button" href=""
+                                            class="btn btn-sm btn-dark fw-bold d-md-inline-block d-none"
+                                            data-bs-toggle="modal" data-bs-target="#modalbs{{ $material->id }}">
+                                            Preview
+                                        </a>
+                                        <a type="button" href="{{ $material->embed_link }}"
+                                            class="btn btn-sm btn-dark fw-bold d-inline-block d-md-none">
                                             Preview
                                         </a>
                                         @include('materials.modal')
