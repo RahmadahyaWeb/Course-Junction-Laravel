@@ -2,13 +2,9 @@
 
 Perluas Pengetahuan Anda secara Gratis dengan Course Junction.
 
-## Hero Section
-
-![Course Junction](https://i.imgur.com/6lm74s7.png)
-
 ## Dashboard
 
-![Course Junction](https://i.imgur.com/qdwAdag.png)
+![Course Junction](https://i.imgur.com/fk67KRx.png)
 
 ## Apa itu Course Junction
 
