@@ -20,17 +20,17 @@
                 <div class="col-12">
                     <label for="title" class="form-label">Title</label>
                     <input type="text" class="form-control @error('title') is-invalid @enderror" id="title"
-                        name="title" placeholder="Enter the course title" value="{{ old('title', $course->title) }}"
+                        name="title" placeholder="Enter the course title" value="{{ old('title', $material->title) }}"
                         disabled>
                 </div>
                 <div class="col-12">
                     <label for="summernote" class="form-label">Description</label>
-                    <textarea class="form-control" id="show" disabled>{{ $course->description }}</textarea>
+                    <textarea class="form-control" id="show" disabled>{{ $material->description }}</textarea>
                 </div>
                 <div class="col-12">
                     <label for="duration" class="form-label">Duration</label>
                     <input class="html-duration-picker form-control @error('duration') is-invalid @enderror" name="duration"
-                        id="duration" value="{{ $course->duration }}" disabled>
+                        id="duration" value="{{ $material->duration }}" disabled>
                 </div>
                 <div class="col-12">
                     <label for="embed_link" class="form-label">Link</label>
