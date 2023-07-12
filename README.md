@@ -34,7 +34,7 @@ https://drive.google.com/file/d/1keRaX1W-7ap1fuqrwZdQWwU1Ms27fM6U/view?usp=shari
 1. Clone repository
 
 ```bash
-git clone https://github.com/RahmadahyaWeb/CourseJunction-Filament.git
+git clone https://github.com/RahmadahyaWeb/Course-Junction-Laravel.git
 ```
 
 2. Composer install
